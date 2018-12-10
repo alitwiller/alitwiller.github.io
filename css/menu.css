@@ -68,49 +68,35 @@ nav li a {
 a:focus, a:hover {
     color: darkblue;
 }
+a:active-page {
+    background-color: darkblue;
+}
 
 /* styles for main */
 body {
     background-image: url(blur.jpg);
 }
-.img {
-    margin: 0 5% 3em 5%;
-    float: left;
-    width: 40%;
+main h1 {
+    color: coral;
+    margin: .5em 0;
 }
-.model-box {
-    margin: 0 5% 3em 5%;
-    float: right;
-    width: 40%;
-    position: relative;
-    padding-top: 27.4%;
-    height: 0;
-    overflow: hidden;
+main h2 {
+    margin: .4em 0;
 }
-.model {
-    position: absolute;
-    border: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+main p {
+    font-size: 20px;
 }
-.map-box {
-    margin: 0 5% 3em 5%;
-    float: right;
-    width: 40%;
-    position: relative;
-    padding-top: 33%;
-    height: 0;
-    overflow: hidden;
+main h3 {
+    margin: .3em 0;
+    width: 50%;
 }
-.map {
-    position: absolute;
-    border: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+#box {
+    color: darkblue;
+    background-color: #F0F0F0;
+    margin-left: 1.9em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    margin-right: 2em;
 }
 @media screen and (min-width: 1200px) {
     header h1 {

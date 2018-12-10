@@ -9,13 +9,17 @@
     <meta name="description" content="Home Page">
     <meta name="keywords" content="breakfast, treat, donut, coffe, dessert">
     <link rel="shortcut icon" href="images/LOGO.png">
+    
   </head>
 
   <body>
       <header>
-          <img src="images/LOGO.png" alt="Logo" height="100">
-          <h1>Donut Delights</h1>
-          <h2><q>The finest in breakfast treats since 1971</q></h2>
+          <h3>Open Every Day 6 to 11 A.M.</h3>
+          <img src="images/LOGO.png" alt="Logo">
+          <div id="header">
+            <h1>Donut Delights</h1>
+            <h2><q>The finest in breakfast treats since 1971</q></h2>
+          </div>
           <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -23,14 +27,29 @@
                 <li><a href="pages/about.html">About Us</a></li>
                 <li><a href="pages/contact.html">Contact Us</a></li>
             </ul>
-        </nav>
+          </nav>
       </header>
       <main>
-          <img src="images/donutDelightsStoreFront1.1.jpg" alt="Storefront" id="store">
-          <iframe height="315" src="https://www.youtube.com/embed/aWMjUQFEGd0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <img src="images/vetsAdSmall.gif">
+          
+          <img src="/images/donutDelightsStoreFront1.1.jpg" alt="Storefront" class="img">
+          <div class="model-box">
+              <iframe class="model" src="https://www.youtube.com/embed/aWMjUQFEGd0" allowfullscreen=""></iframe>
+          </div>
+          <img src="/images/vetAd.gif" alt="Vets eat free." class="img">
+          <!Here is my google map>
+          <div class="map-box">
+              <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3050.427006278505!2d-88.292948485466!3d40.132771180785674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cda8209ee865d%3A0x3ebb12ae2a2bc039!2s2400+W+Bradley+Ave%2C+Champaign%2C+IL+61821!5e0!3m2!1sen!2sus!4v1544323713367" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+
       </main>
-      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130669563-1"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-130669563-1');
+      </script>
   </body>
 
 </html>

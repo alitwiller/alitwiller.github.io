@@ -4,18 +4,24 @@
   <head>
     <meta charset="UTF-8">
     <title>Donut Delights</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/normalize.css">
+    <link type="text/plain" rel="author" href="../humans.txt">
+    <link type="text/plain" rel="author" href="../robots.txt">
     <meta name="description" content="Home Page">
     <meta name="keywords" content="breakfast, treat, donut, coffe, dessert">
-    <link rel="shortcut icon" href="images/LOGO.png">
+    <link rel="shortcut icon" href="../images/LOGO.png">
+    
   </head>
 
   <body>
       <header>
-          <img src="../images/LOGO.png" alt="Logo" height="100">
-          <h1>Donut Delights</h1>
-          <h2><q>The finest in breakfast treats since 1971</q></h2>
+          <h3>Open Every Day 6 to 11 A.M.</h3>
+          <img src="../images/LOGO.png" alt="Logo">
+          <div id="header">
+            <h1>Donut Delights</h1>
+            <h2><q>The finest in breakfast treats since 1971</q></h2>
+          </div>
           <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
@@ -23,11 +29,28 @@
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
-        </nav>
+          </nav>
       </header>
       <main>
-          <h1>About Us</h1>
+          <div class="box">
+              <h2>About Donut Delights</h2>
+              <p>Melvein Furballski started Donut Delights in 1971. Melvin was a poor immigrant baker from Eastern Poland. In 1970, he fled the Communist regime that had been ruling his homeland for years, and settle in the New York City. He then hopped no a bus headed for the west, but the bus broke down in Champaing, IL.  He decided to settle down there.  He opened up a donut stand, and in just six months, he had made enough money to open up a small shop.  He named the shop "Donut Delights" when it opened in 1971.</p>
+          </div>
+          <img src="../images/bakeryFire.jpg">
+          <div class="box">
+              <h2>Fire</h2>
+              <p>In 1986, a fire broke out in the kitchen during the night, ruining all the ovens. It spread to office and destroyed much of the shop's financial records, BUT NOT THE RECIPES. Melvin was able to rebuild after the incident, and his business quickly grew larger than before. Now, Donut Delights is known as the "Breakfast Heaven" of the champaign area</p>
+              
+          </div>
       </main>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130669563-1"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-130669563-1');
+      </script>
   </body>
 
 </html>

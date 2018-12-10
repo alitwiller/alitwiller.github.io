@@ -48,7 +48,7 @@ nav {
     color: coral;
     font-weight: bold;
     padding-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
 }
 nav ul{
     padding: 0;
@@ -73,45 +73,67 @@ a:focus, a:hover {
 body {
     background-image: url(blur.jpg);
 }
-.img {
-    margin: 0 5% 3em 5%;
-    float: left;
+main img {
+    margin-bottom: 4em;
+    margin-left: 6em;
+}
+.box {
+    background-color: #F0F0F0;
+    margin-bottom: 4em;
+    padding-bottom: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+main h2 {
+    padding-bottom: .5em;
+    font-size: 3vw;
+    color: coral;
+    margin: 0;
+    width: 70%;
+    margin-left: 1em;
+}
+main p {
+    font-size: 2.5vw;
+    color: darkblue;
+    margin: 0;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+main form {
+    color: darkblue;
+    background-color: #F0F0F0;
+    margin-bottom: 4em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.input {
+    margin-top: .5em;
+    margin-bottom: .5em;
     width: 40%;
+    font-size: 1.5em;
 }
-.model-box {
-    margin: 0 5% 3em 5%;
-    float: right;
-    width: 40%;
-    position: relative;
-    padding-top: 27.4%;
-    height: 0;
-    overflow: hidden;
+.input2 {
+    width: 80%;
+    font-size: 1.5em;
+    margin-top: .5em;
+    margin-bottom: 1em;
 }
-.model {
-    position: absolute;
-    border: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+main h3 {
+    margin-bottom: .5em;
+    padding-top: .5em;
 }
-.map-box {
-    margin: 0 5% 3em 5%;
-    float: right;
-    width: 40%;
-    position: relative;
-    padding-top: 33%;
-    height: 0;
-    overflow: hidden;
+#check {
+    width: 1.1em;
+    height: 1.1em;
 }
-.map {
-    position: absolute;
-    border: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+#submit {
+    width: 7em;
+    font-size: 1.1em;
+    margin-top: .5em;
 }
+/*Media Queries*/
 @media screen and (min-width: 1200px) {
     header h1 {
         font-size: 48px;
@@ -124,5 +146,11 @@ body {
     }
     nav {
         font-size: 36px;
+    }
+    main h2 {
+        font-size: 36px;
+    }
+    main p {
+        font-size: 30px;
     }
 }
